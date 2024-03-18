@@ -1,0 +1,255 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "cpf": "12345678900",
+      "nome": "Carlos Ribeiro",
+      "email": "carlos@gmail.com",
+      "endereco": "Rua Das Flores, n 15",
+      "telefone": "41 991235652",
+      "funcionario": false
+    },
+    {
+      "id": "2",
+      "cpf": "94857683456",
+      "nome": "Antonio Roberto",
+      "email": "antonio@gmail.com",
+      "endereco": "Alameda Dos Anjos, n 3000",
+      "telefone": "31 925415263",
+      "funcionario": false
+    },
+    {
+      "id": "3",
+      "cpf": "35241526451",
+      "nome": "Rosa Nunes",
+      "email": "rosa@gmail.com",
+      "endereco": "Avenida Brasil, n 1560",
+      "telefone": "22 991235652",
+      "funcionario": false
+    },
+    {
+      "id": "4",
+      "cpf": "21425165238",
+      "nome": "Renata Gonçalves",
+      "email": "renata@gmail.com",
+      "endereco": "Rua dos voluntários, n 324",
+      "telefone": "11 912345162",
+      "funcionario": false
+    },
+    {
+      "id": "5",
+      "cpf": "36956856265",
+      "nome": "Rogerio Cardoso",
+      "email": "rogerio@gmail.com",
+      "endereco": "Alameda João Batista, n 624",
+      "telefone": "54 936522352",
+      "funcionario": false
+    }
+  ],
+  "funcionarios": [
+    {
+      "id": "1",
+      "cpf": "98765432100",
+      "nome": "José Silva",
+      "email": "jose@gmail.com",
+      "endereco": "Rua das Palmeiras, n 20",
+      "telefone": "41 992345678",
+      "funcionario": true
+    },
+    {
+      "id": "2",
+      "cpf": "56784329101",
+      "nome": "Maria Santos",
+      "email": "maria@gmail.com",
+      "endereco": "Avenida dos Girassóis, n 500",
+      "telefone": "31 927654321",
+      "funcionario": true
+    },
+    {
+      "id": "3",
+      "cpf": "78901234567",
+      "nome": "Pedro Oliveira",
+      "email": "pedro@gmail.com",
+      "endereco": "Rua das Violetas, n 10",
+      "telefone": "22 998765432",
+      "funcionario": true
+    },
+    {
+      "id": "4",
+      "cpf": "21098765432",
+      "nome": "Ana Souza",
+      "email": "ana@gmail.com",
+      "endereco": "Rua dos Cravos, n 50",
+      "telefone": "11 912345678",
+      "funcionario": true
+    },
+    {
+      "id": "5",
+      "cpf": "54321678901",
+      "nome": "Paula Ferreira",
+      "email": "paula@gmail.com",
+      "endereco": "Avenida dos Lírios, n 30",
+      "telefone": "54 938765432",
+      "funcionario": true
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "1",
+      "situacao": "EM ABERTO",
+      "dataCriacao": "2024-03-17T15:30:00",
+      "roupas": [
+        {
+          "id": "1",
+          "roupa": "Camisa",
+          "preço": "50.00",
+          "tempoDeServico": "60"
+        },
+        {
+          "id": "2",
+          "roupa": "Calça Jeans",
+          "preço": "70.00",
+          "tempoDeServico": "90"
+        },
+        {
+          "id": "3",
+          "roupa": "Vestido",
+          "preço": "80.00",
+          "tempoDeServico": "60"
+        }
+      ],
+      "prazoServico": "90",
+      "precoTotal": "200.00"
+    },
+    {
+      "id": "2",
+      "situacao": "EM ABERTO",
+      "dataCriacao": "2024-03-16T10:45:00",
+      "roupas": [
+        {
+          "id": "4",
+          "roupa": "Terno",
+          "preço": "150.00",
+          "tempoDeServico": "120"
+        },
+        {
+          "id": "5",
+          "roupa": "Sapato Social",
+          "preço": "100.00",
+          "tempoDeServico": "45"
+        }
+      ],
+      "prazoServico": "120",
+      "precoTotal": "250.00"
+    },
+    {
+      "id": "3",
+      "situacao": "EM ABERTO",
+      "dataCriacao": "2024-03-18T08:00:00",
+      "roupas": [
+        {
+          "id": "6",
+          "roupa": "Calça",
+          "preço": "60.00",
+          "tempoDeServico": "75"
+        },
+        {
+          "id": "7",
+          "roupa": "Camiseta",
+          "preço": "30.00",
+          "tempoDeServico": "30"
+        },
+        {
+          "id": "8",
+          "roupa": "Meia",
+          "preço": "10.00",
+          "tempoDeServico": "15"
+        }
+      ],
+      "prazoServico": "75",
+      "precoTotal": "100.00"
+    },
+    {
+      "id": "4",
+      "situacao": "EM ABERTO",
+      "dataCriacao": "2024-03-18T09:30:00",
+      "roupas": [
+        {
+          "id": "9",
+          "roupa": "Camisa",
+          "preço": "50.00",
+          "tempoDeServico": "60"
+        },
+        {
+          "id": "10",
+          "roupa": "Calça",
+          "preço": "60.00",
+          "tempoDeServico": "75"
+        },
+        {
+          "id": "11",
+          "roupa": "Cueca",
+          "preço": "20.00",
+          "tempoDeServico": "20"
+        }
+      ],
+      "prazoServico": "75",
+      "precoTotal": "130.00"
+    },
+    {
+      "id": "5",
+      "situacao": "EM ABERTO",
+      "dataCriacao": "2024-03-18T10:00:00",
+      "roupas": [
+        {
+          "id": "12",
+          "roupa": "Meia",
+          "preço": "10.00",
+          "tempoDeServico": "15"
+        },
+        {
+          "id": "13",
+          "roupa": "Camisa",
+          "preço": "50.00",
+          "tempoDeServico": "60"
+        },
+        {
+          "id": "14",
+          "roupa": "Cueca",
+          "preço": "20.00",
+          "tempoDeServico": "20"
+        }
+      ],
+      "prazoServico": "60",
+      "precoTotal": "80.00"
+    }
+  ],
+
+  "orcamentos": [
+    {
+      "valor": "500.00",
+      "prazo": 10080,
+      "aprovado": true
+    },
+    {
+      "valor": "800.00",
+      "prazo": 7200,
+      "aprovado": false
+    },
+    {
+      "valor": "350.00",
+      "prazo": 14400,
+      "aprovado": true
+    },
+    {
+      "valor": "650.00",
+      "prazo": 4320,
+      "aprovado": true
+    },
+    {
+      "valor": "1000.00",
+      "prazo": 20160,
+      "aprovado": false
+    }
+  ]
+}
