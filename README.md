@@ -5,6 +5,10 @@ git clone https://github.com/Lufeltz/dados-json.git
 ```
 
 ```
+cd dados-json
+```
+
+```
 npm install
 ```
 
@@ -14,12 +18,43 @@ npm install
 json-server --watch dados.json
 ```
 
-#### URL base: http://localhost:3000
+#### Resposta esperada
+
+```
+json-server --watch .\dados.json
+
+--watch/-w can be omitted, JSON Server 1+ watches for file changes by default
+JSON Server started on PORT :3000
+Press CTRL-C to stop
+Watching .\dados.json...
+
+( ˶ˆ ᗜ ˆ˵ )
+
+Index:
+http://localhost:3000/
+
+Static files:
+Serving ./public directory if it exists
+
+Endpoints:
+http://localhost:3000/clientes
+http://localhost:3000/funcionarios
+http://localhost:3000/pedidos
+http://localhost:3000/orcamentos
+```
+
+#### Se apareceu a resposta acima tudo certo pode ir testar, caso contrário use o comando a seguir e execute o json-server novamente:
+
+```
+npm install -g json-server
+```
+
+#### URL base para acesso no navegador: http://localhost:3000
 
 ### Endpoints
 
-- /funcionarios
 - /clientes
+- /funcionarios
 - /pedidos
 - /orcamentos
 
