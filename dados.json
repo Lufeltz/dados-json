@@ -102,20 +102,20 @@
         {
           "id": "1",
           "roupa": "Camisa",
-          "preço": "50.00",
-          "tempoDeServico": "60"
+          "preco": "50.00",
+          "tempoDeServicoMinutos": "60"
         },
         {
           "id": "2",
           "roupa": "Calça Jeans",
-          "preço": "70.00",
-          "tempoDeServico": "90"
+          "preco": "70.00",
+          "tempoDeServicoMinutos": "90"
         },
         {
           "id": "3",
           "roupa": "Vestido",
-          "preço": "80.00",
-          "tempoDeServico": "60"
+          "preco": "80.00",
+          "tempoDeServicoMinutos": "60"
         }
       ],
       "prazoServico": "90",
@@ -129,14 +129,14 @@
         {
           "id": "4",
           "roupa": "Terno",
-          "preço": "150.00",
-          "tempoDeServico": "120"
+          "preco": "150.00",
+          "tempoDeServicoMinutos": "120"
         },
         {
           "id": "5",
           "roupa": "Sapato Social",
-          "preço": "100.00",
-          "tempoDeServico": "45"
+          "preco": "100.00",
+          "tempoDeServicoMinutos": "45"
         }
       ],
       "prazoServico": "120",
@@ -144,26 +144,26 @@
     },
     {
       "id": "3",
-      "situacao": "EM ABERTO",
+      "situacao": "AGUARDANDO PAGAMENTO",
       "dataCriacao": "2024-03-18T08:00:00",
       "roupas": [
         {
           "id": "6",
           "roupa": "Calça",
-          "preço": "60.00",
-          "tempoDeServico": "75"
+          "preco": "60.00",
+          "tempoDeServicoMinutos": "75"
         },
         {
           "id": "7",
           "roupa": "Camiseta",
-          "preço": "30.00",
-          "tempoDeServico": "30"
+          "preco": "30.00",
+          "tempoDeServicoMinutos": "30"
         },
         {
           "id": "8",
           "roupa": "Meia",
-          "preço": "10.00",
-          "tempoDeServico": "15"
+          "preco": "10.00",
+          "tempoDeServicoMinutos": "15"
         }
       ],
       "prazoServico": "75",
@@ -171,26 +171,26 @@
     },
     {
       "id": "4",
-      "situacao": "EM ABERTO",
+      "situacao": "RECOLHIDO",
       "dataCriacao": "2024-03-18T09:30:00",
       "roupas": [
         {
           "id": "9",
           "roupa": "Camisa",
-          "preço": "50.00",
-          "tempoDeServico": "60"
+          "preco": "50.00",
+          "tempoDeServicoMinutos": "60"
         },
         {
           "id": "10",
           "roupa": "Calça",
-          "preço": "60.00",
-          "tempoDeServico": "75"
+          "preco": "60.00",
+          "tempoDeServicoMinutos": "75"
         },
         {
           "id": "11",
           "roupa": "Cueca",
-          "preço": "20.00",
-          "tempoDeServico": "20"
+          "preco": "20.00",
+          "tempoDeServicoMinutos": "20"
         }
       ],
       "prazoServico": "75",
@@ -198,26 +198,26 @@
     },
     {
       "id": "5",
-      "situacao": "EM ABERTO",
+      "situacao": "PAGO",
       "dataCriacao": "2024-03-18T10:00:00",
       "roupas": [
         {
           "id": "12",
           "roupa": "Meia",
-          "preço": "10.00",
-          "tempoDeServico": "15"
+          "preco": "10.00",
+          "tempoDeServicoMinutos": "15"
         },
         {
           "id": "13",
           "roupa": "Camisa",
-          "preço": "50.00",
-          "tempoDeServico": "60"
+          "preco": "50.00",
+          "tempoDeServicoMinutos": "60"
         },
         {
           "id": "14",
           "roupa": "Cueca",
-          "preço": "20.00",
-          "tempoDeServico": "20"
+          "preco": "20.00",
+          "tempoDeServicoMinutos": "20"
         }
       ],
       "prazoServico": "60",
