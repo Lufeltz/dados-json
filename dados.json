@@ -224,36 +224,35 @@
       "precoTotal": "80.00"
     }
   ],
-
   "orcamentos": [
     {
       "id": "1",
       "valor": "500.00",
-      "prazo": 10080,
+      "prazo": "2024-03-18T10:00:00",
       "aprovado": true
     },
     {
       "id": "2",
       "valor": "800.00",
-      "prazo": 7200,
+      "prazo": "2024-03-18T08:00:00",
       "aprovado": false
     },
     {
       "id": "3",
       "valor": "350.00",
-      "prazo": 14400,
+      "prazo": "2024-03-18T12:00:00",
       "aprovado": true
     },
     {
       "id": "4",
       "valor": "650.00",
-      "prazo": 4320,
+      "prazo": "2024-03-18T09:00:00",
       "aprovado": true
     },
     {
       "id": "5",
       "valor": "1000.00",
-      "prazo": 20160,
+      "prazo": "2024-03-18T15:00:00",
       "aprovado": false
     }
   ]
